@@ -3,9 +3,11 @@
   letter-spacing: 0.8px;
 }
 
-.Main-bg {
-  height: 600px;
+.main-bg {
+  height: 500px;
+  background-repeat: no-repeat;
   background-image: url('./img/bg-main.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  margin-bottom: 30px;
 }
