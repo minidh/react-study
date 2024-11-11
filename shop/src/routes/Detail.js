@@ -43,13 +43,13 @@ function Detail (props) {
     let [fade2, setFade2] = useState('')
 
     useEffect(() => {
-        let 꺼낸 = localStorage.getItem('watched')
-        꺼낸 =JSON.parse(꺼낸)
-        꺼낸.push(myItem.id)
+        // let 꺼낸 = localStorage.getItem('watched')
+        // 꺼낸 =JSON.parse(꺼낸)
+        // 꺼낸.push(myItem.id)
 
-        꺼낸 = new Set(꺼낸)
-        꺼낸 = Array.from(꺼낸)
-        localStorage.setItem('watched',JSON.stringify(꺼낸))
+        // 꺼낸 = new Set(꺼낸)
+        // 꺼낸 = Array.from(꺼낸)
+        // localStorage.setItem('watched',JSON.stringify(꺼낸))
     }, [])
 
     useEffect(() => {
